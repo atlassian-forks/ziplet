@@ -12,6 +12,14 @@
 		As a Filter, this class can also be easily added to any J2EE 1.3+ web application.
 	</description>
 	<url>https://github.com/atlassian-forks/ziplet</url>
+
+	<distributionManagement>
+		<repository>
+			<id>atlassian-3rdparty</id>
+			<url>https://packages.atlassian.com/3rdparty</url>
+		</repository>
+	</distributionManagement>
+
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -19,30 +27,13 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+
 	<scm>
 		<connection>scm:git:git@github.com:atlassian-forks/ziplet.git</connection>
 		<developerConnection>scm:git:git@github.com:atlassian-forks/ziplet.git</developerConnection>
 		<url>git@github.com:atlassian-forks/ziplet.git</url>
 		<tag>HEAD</tag>
-  </scm>
-	<developers>
-		<developer>
-			<id>fgaule</id>
-			<name>Federico Gaule</name>
-			<email>federico.gaule@gmail.com</email>
-			<timezone>-3</timezone>
-			<organization>Despegar</organization>
-			<organizationUrl>http://www.despegar.com</organizationUrl>
-		</developer>
-		<developer>
-			<id>fededonna</id>
-			<name>Federico Donnarumma</name>
-			<email>fdonnarumma@gmail.com</email>
-			<timezone>-3</timezone>
-			<organization>Mulesoft</organization>
-			<organizationUrl>https://www.mulesoft.com/</organizationUrl>
-		</developer>
-	</developers>
+  	</scm>
 
 	<properties>
 		<sl4j.version>1.7.6</sl4j.version>
